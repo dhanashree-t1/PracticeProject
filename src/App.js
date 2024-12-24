@@ -10,6 +10,7 @@ function App() {
             <CollapsibleNavbar />
             <CombinedComponent />
             <Imagecards />
+            <h1>Hello</h1>
             <GridExample />
         </div>
     );
