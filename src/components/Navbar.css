@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Mycustomfont'; 
+    src: url('.././assets/fonts/Flaticon.woff') format('.woff'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.container {
+    background: transparent;
+}
+.me-auto {
+  color: transparent;
+  margin-left: 45%;
+  gap: 15px;
+}
+         

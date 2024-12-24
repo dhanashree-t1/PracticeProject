@@ -1,38 +1,18 @@
-import React, { useState } from 'react';
-import './App.css'; 
+import './App.css';
+import CollapsibleNavbar from './components/Navbar.js'; 
+import CombinedComponent from './components/PlayerComponent.js';
+import Imagecards from './components/imagecards.js';
+import GridExample from './components/secondcard.js';
+
 function App() {
-  const [movie, setMovie] = useState(''); 
-  const [movies, setMovies] = useState([]); 
-  const handleInputChange = (event) => {
-    setMovie(event.target.value); 
-  };
-
-  const handleAddMovie = () => {
-    if (movie) { 
-      setMovies([...movies, movie]); 
-      setMovie(''); 
-    }
-  };
-
-  return (
-    <div className="container"> 
-      <h1>FAVOURITE MOVIES</h1>
-      <input 
-        type="text" 
-        value={movie} 
-        onChange={handleInputChange} 
-        placeholder="Enter a movie name" 
-      />
-      <button onClick={handleAddMovie}>Add Movie</button> 
-
-     
-      <ul>
-        {movies.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>
-    </div>
-  );
+    return (
+        <div>
+            <CollapsibleNavbar />
+            <CombinedComponent />
+            <Imagecards />
+            <GridExample />
+        </div>
+    );
 }
 
 export default App;
