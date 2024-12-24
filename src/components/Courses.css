@@ -1,0 +1,38 @@
+.courses-section {
+    color: white;
+  }
+  
+  .course-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .course-card img {
+    border-radius: 10px 10px 0 0;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .course-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .course-rating {
+    color: #ffcc00;
+    margin-top: 5px;
+  }
+  
+  .course-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  

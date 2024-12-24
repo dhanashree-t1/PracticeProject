@@ -1,0 +1,39 @@
+.contact-page {
+    background-color: #000;
+    padding: 50px 0;
+    min-height: 100vh;
+  }
+  
+  .white-box {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .red-box {
+    background-color: #a52a2a;
+    border-radius: 10px;
+  }
+  
+  .custom-button {
+    background-color: #a52a2a;
+    border-color: #a52a2a;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .custom-button:hover {
+    background-color: #cc3333;
+    border-color: #cc3333;
+  }
+  
+  .form-control-custom {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .footer-text {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
